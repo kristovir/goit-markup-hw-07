@@ -1,0 +1,32 @@
+.header {
+    padding: 24px 0 25px;
+
+&__container {
+    display: flex;
+    align-items: center;
+    line-height: 1.17;
+}
+
+&__nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 93px;
+}
+
+
+&__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-position: center;
+}
+
+&--border {
+    padding: 24px 0 25px;
+    border-bottom: 1px solid #ececec;
+}
+}
+
+

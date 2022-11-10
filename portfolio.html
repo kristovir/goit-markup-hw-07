@@ -8,7 +8,7 @@
     <title>Портфоліо</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,7 +25,7 @@
                     <a class="logo" lang="en" href="./index.html"> <span class="logo__web">Web</span><span
                             class="logo__studio">Studio</span> </a>
                     <ul class="nav">
-                        <li >
+                        <li>
                             <a class="nav__link" href="./index.html">Студія</a>
                         </li>
                         <li class="nav__studio">
@@ -70,20 +70,20 @@
         <section class="section">
             <div class="container">
                 <ul class="button-list">
-                    <li class="button-portfolio">
-                        <button class="button-filter" type="button">Усі</button>
+                    <li class="button-list__portfolio">
+                        <button class="button-list__filter" type="button">Усі</button>
                     </li>
-                    <li class="button-portfolio">
-                        <button class="button-filter" type="button">Веб-сайти</button>
+                    <li class="button-list__portfolio">
+                        <button class="button-list__filter" type="button">Веб-сайти</button>
                     </li>
-                    <li class="button-portfolio">
-                        <button class="button-filter" type="button">Додатки</button>
+                    <li class="button-list__portfolio">
+                        <button class="button-list__filter" type="button">Додатки</button>
                     </li>
-                    <li class="button-portfolio">
-                        <button class="button-filter" type="button">Дизайн</button>
+                    <li class="button-list__portfolio">
+                        <button class="button-list__filter" type="button">Дизайн</button>
                     </li>
-                    <li class="button-portfolio">
-                        <button class="button-filter" type="button">Маркетинг</button>
+                    <li class="button-list__portfolio">
+                        <button class="button-list__filter" type="button">Маркетинг</button>
                     </li>
                 </ul>
                 <ul class="portfolio-list">
@@ -257,7 +257,7 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer__contact">
+            <div class="footer__box-contact">
                 <div>
                     <a class="logo" lang="en" href="./index.html"> <span class="logo__web">Web</span><span
                             class="logo__studio logo__studio--white">Studio</span> </a>
@@ -277,9 +277,9 @@
                         </ul>
                     </address>
                 </div>
-            
-                <div class="footer-net">
-                    <p class="footer-text">Приєднуйтесь</p>
+
+                <div class="footer__box-net">
+                    <p class="footer__text">Приєднуйтесь</p>
                     <ul class="footer-list">
                         <li><a href="#" class="footer-list__link">
                                 <svg class="footer-list__icon" width="20px" height="20px">
@@ -303,23 +303,23 @@
                             </a></li>
                     </ul>
                 </div>
-            
-                <div class="footer-form">
+
+                <div class="form-mail">
                     <form name="form_email">
-            
-                        <label class="footer-text" for="email">Підпишіться на розсилку</label>
-                        <div class="form-mail">
+
+                        <label class="form-mail__text" for="email">Підпишіться на розсилку</label>
+                        <div class="form-mail__box">
                             <input class="form-mail__field" id="email" type="email" name="email" placeholder="E-mail">
-                            <button type="submit" class="button button__form">Підписатися
-                                <svg class="button__icon" width="24px" height="24px">
+                            <button type="submit" class="button button-form">Підписатися
+                                <svg class="button-icon" width="24px" height="24px">
                                     <use href="./images/icons.svg#icon-send"></use>
                                 </svg>
                             </button>
                         </div>
-            
+
                     </form>
-            
-            
+
+
                 </div>
             </div>
         </div>
